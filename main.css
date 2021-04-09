@@ -11,7 +11,7 @@ body {
     background-color: black;
 }
 .dice-game{
-    background: url(/Img/dice-bg-2.jpg);
+    background: url(./Img/dice-bg-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +91,7 @@ body {
     color: red;
 }
 .active{
-    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),  url(Img/dice-active.jpeg) ;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),  url(./Img/dice-active.jpeg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
