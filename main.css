@@ -271,7 +271,7 @@ clear: both;
     .header-dice{
         height: 100%;
     }
-    .player-background-point, .player-current-box, .player-current-life{
+    .player-background-point, .player-current-box, .player-current-life, .player-1-name, .player-2-name{
         margin: 0 auto;
         width: 10rem !important;
     }
