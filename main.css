@@ -226,3 +226,65 @@ clear: both;
     opacity: 0;
     transform: scaleX(1.4) scaleY(1.6);
 }
+/* media query for 600px */
+@media (max-width: 37.5em){
+    html{
+        font-size: 55%;
+    }
+    body{
+        overflow-y: hidden;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .dice-game{
+        width: 100vw;
+    }
+    .underline{
+        height: 5px;
+        width: 80vw;
+    }
+    .heightAttain{
+        height: 50vh;
+    }
+    .attract1{
+        color: blue;
+        font-size: 35px;
+        animation: show 5s infinite;
+        width: 400px;
+        margin: auto;
+    }
+    .col-md-5 {
+        width: calc((100% - 15rem) / 2);
+        margin: 0 auto;
+    }
+    .col-md-2{
+        width: 15rem;
+    }
+    .btn-hold, .btn-roll, .display-result{
+        font-size: 2rem;
+        width: 100% !important;
+    }
+    .header-dice{
+        height: 17rem;
+    }
+    .player-background-point, .player-current-box, .player-current-life{
+        margin: 0 auto;
+        width: 10rem !important;
+    }
+    .attract1{
+        font-size: 35px;
+        width: 100%;
+    }
+    .title{
+    background-color: transparent !important;
+    font-size: 3rem !important;
+    }
+    .msgpop-main{
+        font-size: 2rem;
+    }
+    .btn-reset-0, .btn-reset-1{
+        font-size: 2rem;
+        width: 30%;
+    }
+}
+/* end of media query for 600px */
