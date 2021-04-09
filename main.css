@@ -236,6 +236,9 @@ clear: both;
         height: 100%;
         overflow-x: hidden;
     }
+    ul{
+        font-size: 1.3rem;
+    }
     .dice-game{
         width: 100vw;
     }
@@ -259,13 +262,14 @@ clear: both;
     }
     .col-md-2{
         width: 15rem;
+        height: 40vh;
     }
     .btn-hold, .btn-roll, .display-result{
         font-size: 2rem;
         width: 100% !important;
     }
     .header-dice{
-        height: 17rem;
+        height: 100%;
     }
     .player-background-point, .player-current-box, .player-current-life{
         margin: 0 auto;
