@@ -139,8 +139,8 @@ function rollDice(){
     var diceDOM2 = document.querySelector('#dice2');
     diceDOM1.style.display = 'block';
     diceDOM2.style.display = 'block';
-    diceDOM1.src = "/Img/dice-" + dice1 + '.png';
-    diceDOM2.src = "/Img/dice-" + dice2 + '.png';
+    diceDOM1.src = "./Img/dice-" + dice1 + '.png';
+    diceDOM2.src = "./Img/dice-" + dice2 + '.png';
     //double 6 comming in
 // if(dice1 && dice2 !== 6 || dice2 && dice1 !== 6){
 //     scores[activePlayer] = 0;
